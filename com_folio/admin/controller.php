@@ -2,7 +2,7 @@
     defined('_JEXEC') or die;
 
     class FolioController extends JControllerLegacy {
-        protected default_view = 'folios';
+        protected $default_view = 'folios';
 
         public function display($cacheable = false, $urlparams = false) {
             require_once JPATH_COMPONENT.'/helpers/folio.php';
