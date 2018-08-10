@@ -24,7 +24,7 @@
 		<filename>index.html</filename>
 	</files>
 	<languages folder="site">
-    	<language tag="en-GB">language/en-GB.com_folio.ini</language>
+    	<language tag="en-GB">language/en-GB/en-GB.com_folio.ini</language>
 	</languages>
 	<administration>
 		<menu img="class:categories">COM_FOLIO_MENU</menu>
