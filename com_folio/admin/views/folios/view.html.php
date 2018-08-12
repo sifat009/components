@@ -15,6 +15,19 @@
             parent::display($tpl);
         }
 
-        protected function addToolbar()
+        protected function addToolbar() {
+            $canDo = FolioHelper::getActions();
+            $bar = JToolBar::getInstance('toolbar');
+
+            JToolbarHelper::title(JText::_('COM_FOLIO_MANAGER_FOLIOS'), '');
+            JToolbarHelper::addNew('folio.add');
+
+            if($canDo->get('core.edit')) {
+                JToolbarHelper::editList('folio.edit');
+            }
+            if($canDo->get('core.admin')) {
+                JToolbarHelper::preferences('com_folio');
+            }
+        }
     }
 ?>
