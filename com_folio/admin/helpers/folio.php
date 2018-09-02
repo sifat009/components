@@ -1,5 +1,5 @@
 <?php
-    define('_JEXEC') or die;
+    defined('_JEXEC') or die;
 
     class FolioHelper {
 
