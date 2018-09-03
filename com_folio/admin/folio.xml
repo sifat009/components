@@ -33,6 +33,7 @@
 			<filename>access.xml</filename>
 			<filename>config.xml</filename>
 			<filename>controller.php</filename>
+			<filename>script.php</filename>
 			<filename>folio.php</filename>
 			<folder>controllers</folder>
 			<folder>helpers</folder>
